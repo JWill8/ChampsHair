@@ -25,7 +25,15 @@
     color: white;
 
   }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
   .masthead-subheading {
       font-family: satisfy;
       font-weight: lighter;
+  }
+  .rounded-circle {
+    margin: auto;
   }
