@@ -37,3 +37,10 @@
   .rounded-circle {
     margin: auto;
   }
+
+  @media (max-width: 599px) {
+
+    .navbar-brand {
+      font-size: .3rem;
+    }
+  }
