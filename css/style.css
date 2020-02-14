@@ -6,6 +6,10 @@
     text-decoration: none;
     margin: auto;
   }
+
+  .p-5 {
+    margin: auto;
+  }
   
   .fa-facebook:hover {
     opacity: .5;
@@ -40,7 +44,7 @@
 
   @media (max-width: 599px) {
 
-    .navbar-brand {
-      font-size: .3rem;
+    .navbar-font-adjust {
+      font-size: .5rem;
     }
   }
