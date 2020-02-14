@@ -42,9 +42,6 @@
     margin: auto;
   }
 
-  @media (max-width: 599px) {
-
-    .navbar-font-adjust {
-      font-size: .5rem;
-    }
-  }
+.header-image {
+  background-image: url("img/banner.jpg")
+}
