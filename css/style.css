@@ -47,4 +47,23 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 320px;
+  min-height: 500px;
+  position: relative;
+  text-align: center;
+}
+.header-image-text {
+  font-family: satisfy;
+  font-weight: lighter;
+  position: absolute;
+  top: 70%;
+  right: 25%;
+  left: 25%;
+  color: white;
+  display: inline-block;
+}
+
+.spacer-div {
+  height: 100px;
+
 }
