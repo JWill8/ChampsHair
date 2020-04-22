@@ -1,34 +1,32 @@
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 80px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     margin: auto;
   }
-.container {
-  /* font-family: Montserrat; */
-}
+
   .p-5 {
     margin: auto;
   }
   
   .fa-facebook:hover {
     opacity: .5;
-    color: white;
+    color: #3B5998;
   }
   
   .fa-facebook {
-    background: #3B5998;
-    color: white;
+    background: white;
+    color: #3B5998;
   }
   .fa-instagram {
-    color: white;
-    background: red;
+    color: red;
+    background: white;
   }
   .fa-instagram:hover {
     opacity: .5;
-    color: white;
+    color: red;
 
   }
 
@@ -75,4 +73,11 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  .masthead-subheading {
+    font-size: 30px;
+  }
 }
